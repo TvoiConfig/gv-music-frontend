@@ -5,7 +5,7 @@ import {Playlist} from "@/modules/Playlists/index.js";
 </script>
 
 <template>
-  <main class="container-fluid p-5 mb-5 min-vh-100">
+  <main class="container-fluid p-md-5 mb-5 pb-5">
     <BaseSectionTitle
         header="Вся музыка сервиса"
         :src="allTracksSvg"

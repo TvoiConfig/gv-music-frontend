@@ -20,7 +20,7 @@ const durationMinutes = computed(() => {
 </script>
 
 <template>
-  <div class="list-tracks-item d-flex align-items-center px-3 rounded my-1">
+  <div class="list-tracks-item d-flex align-items-center px-3 rounded">
     <img class="list-photo rounded shadow" alt="track cover" :src="track.cover_url || noteSvg">
     <div class="track-info">
       <h4 class="color-E0 m-2">{{ track.title || 'Unknown title' }}</h4>
